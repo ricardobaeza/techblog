@@ -1,7 +1,7 @@
 {
-  "name": "tech-blog",
+  "name": "techblog",
   "version": "1.0.0",
-  "description": "this is the blog that me and ethan are making",
+  "description": "this is a tech blog",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/ricardobaeza/techblog.git"
   },
-  "author": "ricardo baeza",
+  "author": "ricardo baeza and ethan choi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ricardobaeza/techblog/issues"

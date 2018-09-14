@@ -1,3 +1,57 @@
-Html {
-  background-color: black;
+@import "global";
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*------header code------*/
+header {
+  display: flex;
+  height: 130px;
+  background-color: $grey;
+  align-items: center;
+
+  div {
+    margin: 50px;
+    font-family: $headerfont;
+    font-size: 30px;
+  }
+
+  div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $light-blue;
+    background-color: white;
+    height: 100%;
+    width: 288px;
+    margin: 0;
+  }
+  div:nth-child(2) {
+    background-color: $light-grey ;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 172px;
+    margin: 0;
+  }
+  div:last-child {
+    @extend div:nth-child(2);
+    background-color: $grey;
+    width: 211px;
+  }
+}
+
+/*------center code------*/
+body{
+  background-color: $grey;
+  .mainbody {
+    display: flex;
+    justify-content: flex-end;
+    height: 815px;
+  .mainimage {
+    width: 100%;
+  }
+  }
 }

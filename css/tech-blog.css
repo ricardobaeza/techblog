@@ -1,2 +1,44 @@
-Html {
-  background-color: black; }
+body {
+  margin: 0;
+  padding: 0; }
+
+/*------header code------*/
+header {
+  display: flex;
+  height: 130px;
+  background-color: #CCC8C5;
+  align-items: center; }
+  header div {
+    margin: 50px;
+    font-family: "Mukta", sans-serif;
+    font-size: 30px; }
+  header div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7895BB;
+    background-color: white;
+    height: 100%;
+    width: 288px;
+    margin: 0; }
+  header div:nth-child(2), header div:last-child {
+    background-color: #D6D2D0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 172px;
+    margin: 0; }
+  header div:last-child {
+    background-color: #CCC8C5;
+    width: 211px; }
+
+/*------center code------*/
+body {
+  background-color: #CCC8C5; }
+  body .mainbody {
+    display: flex;
+    justify-content: flex-end;
+    height: 815px; }
+    body .mainbody .mainimage {
+      width: 100%; }
