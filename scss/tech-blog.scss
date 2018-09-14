@@ -11,6 +11,10 @@ header {
   background-color: $grey;
   align-items: center;
 
+  .linkstyle {
+    text-decoration: none;
+  }
+
   div {
     margin: 50px;
     font-family: $headerfont;
@@ -55,3 +59,4 @@ body{
   }
   }
 }
+
