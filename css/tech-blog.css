@@ -33,6 +33,9 @@ header {
     background-color: #CCC8C5;
     width: 211px; }
 
+  .linkstyle {
+    text-decoration: none;
+  }
 /*------center code------*/
 body {
   background-color: #CCC8C5; }

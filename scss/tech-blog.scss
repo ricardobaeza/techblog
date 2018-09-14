@@ -10,6 +10,7 @@ header {
   height: 130px;
   background-color: $grey;
   align-items: center;
+  text-decoration: none;
 
   .linkstyle {
     text-decoration: none;
@@ -47,6 +48,9 @@ header {
   }
 }
 
+.linkstyle {
+  text-decoration: none;
+}
 /*------center code------*/
 body{
   background-color: $grey;
