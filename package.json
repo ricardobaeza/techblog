@@ -1,4 +1,22 @@
 {
-  "name": "",
-  "version": ""
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "this is the blog that me and ethan are making",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardobaeza/techblog.git"
+  },
+  "author": "ricardo baeza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardobaeza/techblog/issues"
+  },
+  "homepage": "https://github.com/ricardobaeza/techblog#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
 }
