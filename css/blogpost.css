@@ -34,7 +34,7 @@ header {
     width: 211px; }
 
 .content {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   font-family: "Slabo 27px", serif;
   text-align: center;
@@ -47,25 +47,32 @@ header {
 
 .blogpost {
   display: flex;
-  height: auto; }
+  height: auto;
+  justify-content: space-between;
+  text-align: left; }
   .blogpost p {
-    font-family: "Mukta", sans-serif; }
+    font-family: "Mukta", sans-serif;
+    margin: 0;
+    padding-right: 40px; }
   .blogpost img {
     width: 50%;
     height: 685px; }
 
-.subheading h1 {
-  font-size: 35px; }
-
-.subheading p {
-  line-height: 30px; }
+.subheading {
+  text-align: left; }
+  .subheading h1 {
+    font-size: 35px;
+    text-align: center; }
+  .subheading p {
+    line-height: 30px; }
 
 @media screen and (max-width: 600px) {
   .content {
-    width: 100%; }
+    width: 90%; }
   .blogpost {
     display: flex;
     flex-direction: column; }
     .blogpost img {
       width: 100%;
+      height: 580px;
       border: white; } }
