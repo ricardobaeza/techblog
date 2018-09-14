@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  display: flex;
+  height: 130px;
+  background-color: #CCC8C5;
+  align-items: center; }
+  header div {
+    margin: 50px;
+    font-family: "Mukta", sans-serif;
+    font-size: 30px; }
+  header div:first-child {
+    color: #7895BB; }
