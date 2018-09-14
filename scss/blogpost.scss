@@ -3,28 +3,97 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: $grey;
 }
 
 header {
   display: flex;
   height: 130px;
-  background-color: $light-grey
+  background-color: $grey;
   align-items: center;
 
   div {
     margin: 50px;
-    font-family: $myfont;
+    font-family: $headerfont;
     font-size: 30px;
     }
 
   div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: $light-blue;
+    background-color: white;
+    height: 100%;
+    width: 288px;
+    margin: 0;
+  }
+  div:nth-child(2) {
+    background-color: $light-grey ;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 172px;
+    margin: 0;
+  }
+  div:last-child {
+    @extend div:nth-child(2);
+    background-color: $grey;
+    width: 211px;
+  }
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  font-family: $bodyfont;
+  text-align: center;
+  background-color: $grey;
+
+  h1 {
+    color: white;
+    display: block;
+    font-family: $bodyfont;
+    font-size: 57px ;
 
   }
-
 }
 
 
+.blogpost {
+  display: flex;
+  height: auto;
+  p {
+    font-family: $headerfont;
+  }
+  img {
+    width:50%;
+    height: 685px;
+  }
+}
 
 
+.subheading {
+  h1 {
+    font-size: 35px;
+  }
+  p {
+    line-height: 30px;
+  }
+}
 
+@media screen and (max-width: 600px) {
+  .content {
+    width: 100%;
+  }
+  .blogpost {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      width: 100%;
+      border: white;
+    }
+  }
+}
